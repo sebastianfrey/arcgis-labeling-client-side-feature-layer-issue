@@ -1,11 +1,15 @@
-# ArcGIS Maps SDK for JavaScript with Vite and TypeScript
+# Issue with client-side FeatureLayer  labeling and MSLayer ordering
 
-This sample app show cases an issue with client side feature layer labeling.
-The problem is, that the labels are shown above the wms layer, even
-though the feature layer is below the wms layer in the layer stack.
+This sample app show cases an issue with client-side FeatureLayer labeling.
+The problem is, that the labels are shown above the WMSLayer, even
+though the FeatureLayer is below the WMSLayer in the layer stack.
 
 The image below shows the issue clearly, as the labels are obviously not
-part of the wms layer. They should be hidden behind the wms layer, as the
-feature layer is below the wms layer in the layer stack.
+part of the WMSLayer and that they should be hidden behind the WMSLayer.
 
-![image shows map with labels above wms layer](./assets/image.png)
+![image shows map with labels above WMSLayer](./assets/image.png)
+
+The demo app is based on the ArcGIS Maps SDK for JavaScript 5.0.0-next.43.
+
+It can be accessed [here](https://sebastianfrey.github.io/arcgis-labeling-client-side-feature-layer-issue/)
+
