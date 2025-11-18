@@ -1,0 +1,1 @@
+import{h as r}from"./hitTestSelectUtils-xrNddzEE.js";import{b as o}from"./SketchViewModel-BpdG2zzZ.js";import{n as s}from"./PointSnappingHint-b5UNALvh.js";class m extends o{constructor(t){super({...t,constraint:new r(t.targetPoint)})}get hints(){return[new s(this.targetPoint,this.isDraped,this.domain)]}}export{m as r};

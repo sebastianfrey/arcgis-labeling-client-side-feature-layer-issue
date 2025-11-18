@@ -1,0 +1,1 @@
+import{aJ as s,aL as r}from"./index-C_bK48d2.js";const o=e=>{const i=e;let t=class extends i{get highlightOptions(){}set highlightOptions(a){}};return t=s([r("esri.views.layers.HighlightLayerViewMixin")],t),t};export{o as s};

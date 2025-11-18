@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ArcGIS JS API - Vite + TS</title>
+  <script type="module" crossorigin src="./static/index-C_bK48d2.js"></script>
+  <link rel="stylesheet" crossorigin href="./static/index-DxLSJ8yk.css">
+</head>
+
+<body>
+  <calcite-shell content-behind>
+    <calcite-navigation slot="header">
+      <calcite-navigation-logo id="header-title" heading-level="1" slot="logo">
+      </calcite-navigation-logo>
+    </calcite-navigation>
+
+    <calcite-shell-panel slot="panel-start" display-mode="float">
+      <calcite-action-bar slot="action-bar">
+        <calcite-action data-action-id="layers" icon="layers" text="Layers"></calcite-action>
+      </calcite-action-bar>
+
+      <calcite-panel heading="Layers" height-scale="l" data-panel-id="layers">
+        <arcgis-layer-list reference-element="viewDiv" visibilityAppearance="checkbox"></arcgis-layer-list>
+      </calcite-panel>
+    </calcite-shell-panel>
+
+    <arcgis-map id="viewDiv" basemap="streets" center="6.93, 49.87" zoom="10" spatialReference="25832"></arcgis-map>
+  </calcite-shell>
+
+</body>
+
+</html>
